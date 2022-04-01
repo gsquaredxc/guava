@@ -108,7 +108,7 @@ public final class Iterators {
    * <p>The {@link Iterable} equivalent of this method is {@link
    * ImmutableSet#of()}.
    */
-  static <T> UnmodifiableIterator<T> emptyIterator() {
+  public static <T> UnmodifiableIterator<T> emptyIterator() {
     return emptyListIterator();
   }
 
